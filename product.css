@@ -1,0 +1,118 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 40px;
+    margin: 15px 15px 0px 20px;
+    padding-bottom: 20px;
+ 
+    }
+    .image1{
+        margin: 13px AUTO 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        object-fit: cover;
+        border-radius: 8px;
+        height: 40vh;
+        width: 80%;
+        border: 1px solid black;
+    }
+   .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+   
+   background-color: transparent;
+    height: 20vh;
+   
+   font-size: 20px;
+   
+   }
+   .btn1{
+   display: inline-flex;
+   padding: 10px 20px;
+   margin: 10px;
+  margin-left: 180px;
+  border: transparent;  
+    border-radius: 50px;
+    font-size:15px ;
+    gap: 0;
+   }
+   .btn1:hover{
+    font-size: 20px;
+    background-color: rgb(112, 111, 111);
+    color: white;
+    cursor: pointer;
+border: 1px solid black;
+   }
+   .cont{
+    display: flex;
+    flex-direction: column;
+   margin-left: 45px;
+
+   
+   }
+   .btn5{
+    margin-left: 45px;
+    margin-top: 15px;
+    padding: 10px 10px;
+   }
+   .card1:hover{
+  transform: scale(1.1);
+  transition: transform 0.5s;
+
+   }
+   .card2:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+  
+     }
+     .card3:hover{
+        transform: scale(1.1);
+        transition: transform 0.5s;
+      
+         }
+         .card4:hover{
+         transform: scale(1.1);
+            transition: transform 0.5s;
+          
+             }
+             .card5:hover{
+                transform: scale(1.1);
+                transition: transform 0.5s;
+              
+                 }
+                 .card6:hover{
+                    transform: scale(1.1);
+                    transition: transform 0.5s;
+                  
+                     }
+                     .card7:hover{
+                        transform: scale(1.1);
+                        transition: transform 0.5s;
+                      
+                         }
+                         .card8:hover{
+                            transform: scale(1.1);
+                            transition: transform 0.5s;
+                          
+                             }
+                             .card9:hover{
+                                transform: scale(1.1);
+                                transition: transform 0.5s;
+                              
+                                 }
+                      .btn5:hover{
+                        background-color: rgb(102, 101, 101);
+                        color: white;
+                        font-weight: bold;
+                      }         
